@@ -20,8 +20,8 @@ group :production do
 	gem 'therubyracer-heroku', '0.8.1.pre3'
 end
 
-group :developemnt do
-	gem 'sqlite3'
+group :development do
+	#gem 'sqlite3'
 end
 
 gem 'jquery-rails'
